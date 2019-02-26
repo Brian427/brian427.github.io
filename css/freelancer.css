@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Times New Roman';
+  font-family: 'Lato';
 }
 
 h1,
@@ -37,19 +37,17 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
-  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
 }
 
 hr.star-light {
   border-color: #fff;
+    background-color: white;
 }
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
 }
 
 hr.star-dark {
@@ -348,6 +346,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
+  background: url("../img/bgimage.png");
+  background-color: #12BC9C !important;
+}
+
+.bg-primary1 {
   background-color: #12BC9C !important;
 }
 
