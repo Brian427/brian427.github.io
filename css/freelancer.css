@@ -173,6 +173,27 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  position:relative;
+  overflow:hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+  position: relative;
+  z-index: 2;
 }
 
 header.masthead h1 {
@@ -198,11 +219,18 @@ header.masthead h2 {
     font-size: 1.75em;
   }
 }
-
+.container1
+{
+    overflow:hidden;
+    display:block;
+}
 .portfolio {
   margin-bottom: -15px;
 }
-
+#myVideo
+{
+    width:100%;
+}
 .portfolio .portfolio-item {
   position: relative;
   display: block;
